@@ -1,6 +1,9 @@
 // section
 .section{
     padding: 30px 15px;
+    &--secondary {
+        background: $gray;
+    }
 }
 .section-headline{
     text-align: center;
@@ -26,4 +29,20 @@
 }
 .about-discription{
 
+}
+
+.future {
+    text-align: center;
+    padding: 0 15px;
+    &--headline {
+        font-weight: bold;
+        margin: 0 0 20px;
+    }
+    &--img {
+
+    }
+    &--discription {
+        text-align: left;
+        margin: 0;
+    }
 }

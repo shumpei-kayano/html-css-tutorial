@@ -5,3 +5,30 @@ body {
     line-height: 1.5;
     color: $black;
  }
+
+ .grid {
+    display: flex; // 子要素を横並びにする
+    margin: 0;
+    padding: 0;
+    align-items: center; //垂直方向中央揃え
+    justify-content: center; // 水平方向中央揃え
+    .grid-item {
+            list-style: none;
+        }
+ }
+
+//  Bootstrapライクなカラムレイアウト設定
+ .grid-col {
+    width: 100%;
+    &--col-2 {
+        width: 50%;
+    }
+    &--col-3 {
+        width: 33.3%;
+    }
+    &--col-4 {
+        width: 25%;
+    }
+
+ }
+
