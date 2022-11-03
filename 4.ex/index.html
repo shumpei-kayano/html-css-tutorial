@@ -18,6 +18,15 @@
 </head>
 <body>
 
+    <div class="hero">
+        <strong>Hello World!</strong>
+        <div class="hero-particles" id="particles-js">
+            <!-- autoplay:自動再生 loop:ループ muted:ミュート preload:HTMLが読み込まれたら即座に読み込み開始 -->
+            <video autoplay loop muted preload>
+                <source src="./assets/videos/hero.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
     <!-- ------About------- -->
     <section class="section">
         <!-- セクショニングコンテンツの中のh1はレベルが一個下がるので入れてもOK -->
@@ -256,7 +265,7 @@
         <small class="footer__copy">Copyright ©Ex Inc.</small>
     </footer>
 
-
+    <script src="./assets/js/particles.min.js"></script>
     <script src="./assets/js/app.js"></script>
 </body>
 </html>

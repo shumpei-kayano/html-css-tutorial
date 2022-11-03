@@ -1,3 +1,29 @@
+//hero
+.hero {
+    width: 100vw; // windowサイズの横幅
+    height: 100vh; // windowサイズの高さ
+    position: relative;
+    overflow: hidden;
+    strong {
+        z-index: 2;
+        position: absolute;
+        top: 50%; // この３つを書くと真ん中に来る
+        left: 50%; // この３つを書くと真ん中に来る
+        transform: translate(-50%, -50%); // この３つを書くと真ん中に来る
+        font-size: 120px;
+        color: white;
+        font-weight: bold;
+        display: block; // インライン要素なので幅いっぱいに
+        width: 100%;
+        text-align: center;
+    }
+    video {
+        z-index: 1; // 2つの要素にabsoluteを適用しているのでvideoの方が上に来てしまうのでz-indexで調整する
+        position: absolute;
+        width: auto;
+        height: 105%; //縦横比が画面サイズに合わないのであえて大きくする
+    }
+}
 
 // about
 .about{
