@@ -656,9 +656,41 @@ label, input, textarea, select, button {
   width: auto;
   height: 105%;
 }
-.hero__particles {
-  position: absolute;
-  z-index: 2;
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+}
+.header__logo {
+  margin: 0;
+}
+.header__logo a {
+  display: block;
+}
+.header__navlist {
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__navitem a {
+  display: block;
+  padding: 10px;
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+  border-bottom: 2px solid transparent;
+  transition: border-color 0.25s;
+}
+.header__navitem a:hover {
+  border-bottom: 2px solid #efefef;
 }
 
 .about {
