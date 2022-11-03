@@ -5,7 +5,7 @@
     position: relative;
     overflow: hidden;
     strong {
-        z-index: 2;
+        z-index: 3;
         position: absolute;
         top: 50%; // この３つを書くと真ん中に来る
         left: 50%; // この３つを書くと真ん中に来る
@@ -22,6 +22,10 @@
         position: absolute;
         width: auto;
         height: 105%; //縦横比が画面サイズに合わないのであえて大きくする
+    }
+    &__particles {
+        position: absolute;
+        z-index: 2;
     }
 }
 
