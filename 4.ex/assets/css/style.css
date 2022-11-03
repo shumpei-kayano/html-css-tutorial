@@ -547,6 +547,10 @@ body {
   text-align: center;
 }
 
+label, input, textarea, select, button {
+  cursor: pointer;
+}
+
 .card {
   padding: 0 10px;
 }
@@ -601,6 +605,31 @@ body {
 .button:hover {
   box-shadow: 0 0 0 #999;
 }
+.button--aqua {
+  background-color: #92d3ca;
+}
+
+.select {
+  border-radius: 5px;
+  padding: 10px;
+  border: 1px solid #efefef;
+  min-width: 500px;
+}
+
+.input {
+  border-radius: 5px;
+  padding: 10px;
+  border: 1px solid #efefef;
+  min-width: 500px;
+}
+
+.textarea {
+  border-radius: 5px;
+  padding: 10px;
+  border: 1px solid #efefef;
+  min-width: 500px;
+  min-height: 100px;
+}
 
 .about {
   margin: 0;
@@ -644,4 +673,23 @@ body {
   margin: 0;
   border-radius: 50%;
   overflow: hidden;
+}
+
+.radio {
+  margin: 0 10px;
+}
+
+.form__table {
+  margin: 0 auto;
+}
+.form__table th {
+  padding: 10px;
+  text-align: left;
+}
+.form__table td {
+  padding: 10px;
+}
+
+button {
+  border: 0;
 }/*# sourceMappingURL=style.css.map */

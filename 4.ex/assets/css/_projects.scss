@@ -46,3 +46,25 @@
         overflow: hidden; // 画像に対してborder-radiusを設定したいときは設定する
     }
 }
+
+.radio {
+    margin: 0 10px;
+}
+
+.form {
+
+    &__table {
+        margin: 0 auto; // ブロック要素を中央揃えにできる
+        th {
+            padding: 10px;
+            text-align: left;
+        }
+        td {
+            padding: 10px;
+        }
+    }
+}
+
+button {
+    border:0;
+}

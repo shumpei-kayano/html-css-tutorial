@@ -57,4 +57,29 @@
     &:hover {
         box-shadow: 0 0 0 $gray-darker;
     }
+    &--aqua {
+        background-color: $aqua;
+    }
+}
+
+.select {
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid $gray;
+    min-width: 500px; // これがあると幅を統一できる
+}
+
+.input {
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid $gray;
+    min-width: 500px; // これがあると幅を統一できる}
+}
+
+.textarea {
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid $gray;
+    min-width: 500px; // これがあると幅を統一できる}}
+    min-height: 100px;
 }
