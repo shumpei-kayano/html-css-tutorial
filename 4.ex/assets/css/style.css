@@ -502,6 +502,23 @@ textarea,
   position: absolute;
 }
 
+@media screen and (max-width: 768px) {
+  .grid {
+    display: block;
+  }
+  .grid--col-2 {
+    width: 100%;
+    margin: 20px 0;
+  }
+  .grid--col-3 {
+    width: 100%;
+    margin: 20px 0;
+  }
+  .grid--col-4 {
+    width: 100%;
+    margin: 20px 0;
+  }
+}
 body {
   font-family: "Noto Sans JP", "Helvetica Neue", "Helvetica", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo", sans-serif;
   font-size: 15px;

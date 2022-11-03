@@ -1,3 +1,24 @@
+//レスポンシブデザイン設定
+// 画面サイズが768pxまでの時に適用する ⇨ デバイス小さい向け
+@media screen and (max-width: 768px){
+    .grid {
+        display: block ;
+        &--col-2 {
+            width: 100%;
+            margin: 20px 0;
+        }
+        &--col-3 {
+            width: 100%;
+            margin: 20px 0;
+        }    
+        &--col-4 {
+            width: 100%;
+            margin: 20px 0;
+        }
+    }
+}
+
+
 // フォントおすすめ設定でゴシック体の一覧をコピペ
 body {
     font-family: "Noto Sans JP", "Helvetica Neue", "Helvetica", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo", sans-serif;
