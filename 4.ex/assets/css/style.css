@@ -692,4 +692,13 @@ label, input, textarea, select, button {
 
 button {
   border: 0;
+}
+
+.works {
+  margin: 40px 0;
+  padding: 20px;
+  text-align: center;
+}
+.works img {
+  margin: 0 15px;
 }/*# sourceMappingURL=style.css.map */
