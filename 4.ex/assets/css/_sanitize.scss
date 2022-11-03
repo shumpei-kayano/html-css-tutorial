@@ -8,6 +8,7 @@
 *,
 ::before,
 ::after {
+  // これがあるとborderにpaddingを含んでくれて計算がしやすくなる
   box-sizing: border-box;
 }
 

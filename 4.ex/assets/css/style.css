@@ -701,4 +701,43 @@ button {
 }
 .works img {
   margin: 0 15px;
+}
+
+.footer {
+  background-color: #333;
+  color: white;
+}
+.footer__map {
+  margin: 0;
+  padding: 40px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer__map iframe {
+  width: 60%;
+}
+.footer__map .footer__mapinfo {
+  width: 40%;
+  padding: 15px;
+}
+.footer__maplogo {
+  font-size: 25px;
+}
+.footer__maplogo svg {
+  margin-right: 10px;
+}
+.footer__mapaddress {
+  font-style: normal;
+}
+.footer__mapaddress a {
+  color: white;
+}
+.footer__line {
+  border-color: #444;
+}
+.footer__copy {
+  display: block;
+  text-align: center;
+  padding: 10px;
 }/*# sourceMappingURL=style.css.map */

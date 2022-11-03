@@ -77,3 +77,43 @@ button {
         margin: 0 15px;
     }
 }
+
+.footer {
+    background-color: $black;
+    color: white;
+    &__map {
+        margin: 0;
+        padding: 40px 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    iframe {
+        width: 60%;
+    }
+    .footer__mapinfo {
+        width: 40% ;
+        padding: 15px;
+    }
+    }
+    &__maplogo {
+        font-size: 25px;
+        svg {
+            margin-right: 10px;
+        }
+    }
+    &__mapaddress {
+        font-style: normal;
+        a {
+            color: white;
+            // text-decoration: none;
+        }
+    }
+    &__line {
+        border-color: #444;
+    }
+    &__copy {
+        display: block;
+        text-align: center;
+        padding: 10px;
+    }
+}
