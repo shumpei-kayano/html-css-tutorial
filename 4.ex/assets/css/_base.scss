@@ -12,14 +12,14 @@ body {
     padding: 0;
     align-items: center; //垂直方向中央揃え
     justify-content: center; // 水平方向中央揃え
-    .grid-item {
+    &__item {
             list-style: none;
         }
  }
 
 //  Bootstrapライクなカラムレイアウト設定
  .grid-col {
-    width: 100%;
+    // width: 100%;
     &--col-2 {
         width: 50%;
     }
@@ -30,5 +30,24 @@ body {
         width: 25%;
     }
 
+ }
+
+ // section
+ .section {
+     padding: 30px 15px;
+
+     &--secondary {
+         background: $gray;
+     }
+     &__headline {
+        text-align: center;
+        font-size: 40px;
+        font-weight: bold;
+        margin: 0 0 40px;
+     }
+     &__button {
+        margin-top: 40px;
+        text-align: center;
+     }
  }
 
